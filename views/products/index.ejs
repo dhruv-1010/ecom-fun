@@ -29,12 +29,13 @@
                                 &#8377 <%= item.price %>
                                     <%= item.desc %>
                             </p>
-                            <a href="#" class="btn btn-primary">buy</a>
-                            <a href="#" class="btn btn-danger">sell</a>
+                            <a href="/products/<%=item._id%>" class="btn btn-warning btn-lg ">View Product</a>
+                            
                         </div>
                     </div>
                 </div>
                 <% } %>
+                <a href="products/new"class="btn btn-success col-6 mx-auto">Add New</a>
             </div>
     </div>
 
